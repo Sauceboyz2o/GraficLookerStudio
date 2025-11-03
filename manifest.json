@@ -16,8 +16,8 @@
       "description": "Muestra un valor principal y una comparación.",
       "iconUrl": "https://icons.iconarchive.com/icons/paomedia/small-n-flat/48/chart-area-icon.png",
       "resource": {
-        "js": "gs://tu-bucket/kpiCard.js",
-        "config": "gs://tu-bucket/config.json"
+        "js": "https://Sauceboyz2o.github.io/GraficLookerStudio/kpiCard.js",
+        "config": "https://Sauceboyz2o.github.io/GraficLookerStudio/config.json"
       }
     }
   ]
