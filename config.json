@@ -1,0 +1,54 @@
+{
+  "data": [
+    {
+      "id": "kpiData",
+      "label": "Datos del KPI",
+      "elements": [
+        {
+          "id": "kpiMetric",
+          "label": "Métrica Principal",
+          "type": "METRIC",
+          "options": {
+            "min": 1,
+            "max": 1
+          }
+        },
+        {
+          "id": "kpiComparison",
+          "label": "Métrica de Comparación (Opcional)",
+          "type": "METRIC",
+          "options": {
+            "min": 0,
+            "max": 1
+          }
+        }
+      ]
+    }
+  ],
+  "style": [
+    {
+      "id": "cardStyle",
+      "label": "Estilos de la Tarjeta",
+      "elements": [
+        {
+          "id": "titleText",
+          "label": "Título de la Tarjeta",
+          "type": "TEXT",
+          "defaultValue": "Mi Título de KPI"
+        },
+        {
+          "id": "positiveColor",
+          "label": "Color Positivo",
+          "type": "COLOR",
+          "defaultValue": "#28a745"
+        },
+        {
+          "id": "negativeColor",
+          "label": "Color Negativo",
+          "type": "COLOR",
+          "defaultValue": "#dc3545"
+        }
+      ]
+    }
+  ]
+}
