@@ -1,0 +1,24 @@
+{
+  "name": "Mi Primer KPI Card",
+  "organization": "Mi Empresa",
+  "description": "Un KPI card básico para mostrar un valor y su tendencia.",
+  "logoUrl": "https://icons.iconarchive.com/icons/paomedia/small-n-flat/48/chart-area-icon.png",
+  "organizationUrl": "https://www.google.com",
+  "supportUrl": "https://www.google.com",
+  "packageUrl": "https://github.com/tu-usuario/tu-proyecto",
+  "privacyPolicyUrl": "https://www.google.com",
+  "termsOfServiceUrl": "https://www.google.com",
+  "devMode": true,
+  "components": [
+    {
+      "id": "miKpiCard",
+      "name": "Mi KPI Card Básico",
+      "description": "Muestra un valor principal y una comparación.",
+      "iconUrl": "https://icons.iconarchive.com/icons/paomedia/small-n-flat/48/chart-area-icon.png",
+      "resource": {
+        "js": "gs://tu-bucket/kpiCard.js",
+        "config": "gs://tu-bucket/config.json"
+      }
+    }
+  ]
+}
